@@ -31,7 +31,7 @@
 3) Взять из того же ассета анимацию, создать контроллер с ней и добавить его дракону на сцене.
 !["screenshot"](Screenshots/DragonAnimation.gif)
 4) Создать шар, удлиненный по Y и имеющий Rigidbody, и сохранить его как префаб Egg. 
-5) Создать и настроить материал для яица.
+5) Создать и настроить материал для яица.<br>
 !["screenshot"](Screenshots/Egg.PNG)
 6) Создать энергитический щит, сделать для него материал и сохранить его как префаб EnergyShield.
 !["screenshot"](Screenshots/EnergyShield.PNG)
@@ -67,7 +67,7 @@ public class EnemyDragon : MonoBehaviour
     }
 }
 ```
-3) Настроить скрипт дракона:
+3) Настроить скрипт дракона:<br>
 !["screenshot"](Screenshots/DragonScriptSettings.PNG)
 #### Работа 3
 1) Добавить в скрипт дракона:
@@ -111,7 +111,7 @@ public class DragonEgg : MonoBehaviour
     }
 }
 ```
-3) Добавить и настроить яицу ParticleSystem:
+3) Добавить и настроить яицу ParticleSystem:<br>
 !["screenshot"](Screenshots/ParticleSystem.PNG)
 4) Добавить материал из ассет пака взрывов и эффектов в ParticleSystem.
 !["screenshot"](Screenshots/EggExplosion.gif)
@@ -173,7 +173,7 @@ public class DragonPicker : MonoBehaviour
 }
 ```
 4) В редакторе подключить ивенты объекта YandexGame к соответствующим функциям в DragonPicker.
-5) Настроить DragonPicker в редакторе:
+5) Настроить DragonPicker в редакторе:<br>
 !["screenshot"](Screenshots/DragonPickerSettings.PNG)
 6) Забилдить под WebGL, залить на яндекс игры и проверить работу:
 !["screenshot"](Screenshots/17.gif)
