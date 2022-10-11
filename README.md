@@ -177,6 +177,7 @@ public class DragonPicker : MonoBehaviour
 !["screenshot"](Screenshots/DragonPickerSettings.PNG)
 6) Забилдить под WebGL, залить на яндекс игры и проверить работу:
 !["screenshot"](Screenshots/17.gif)
+https://yandex.ru/games/app/198387?draft=true&lang=ru
 ## Выводы
 
 Узнал как адаптировать игру на unity для яндекс игр и как интегрировать их сервисы.
